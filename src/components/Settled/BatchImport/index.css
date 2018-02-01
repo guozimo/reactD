@@ -1,0 +1,44 @@
+.import {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+}
+.ant-btn-left {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.ant-table-content {
+  font-size: 14px;
+}
+.temple-left {
+  width: 20.83333%;
+  padding-right: 1.9%;
+}
+.ant-form-item-label {
+  color: rgba(0, 0, 0, 0.65);
+}
+.ant-modal {
+  width: 40%!important;
+}
+.template {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.ant-modal-content {
+  font-size: 14px;
+}
+.text-name {
+  border: none;
+  width: 100%;
+  color: red;
+  height: auto;
+  background-color: #fff;
+  height: 40px;
+  max-width: 120%;
+  line-height: 1.8;
+}
+.ant-modal-body {
+  font-size: 14px;
+}

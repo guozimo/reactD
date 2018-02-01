@@ -1,0 +1,47 @@
+@import "../common/common";
+
+
+html, body, :global(#root) {
+  height: 100%;
+  width: 100%;
+  font-family: "Microsoft YaHei", "微软雅黑", "Helvetica Neue", "hiragino sans gb", Helvetica, Arial, sans-serif;
+}
+.chainSetContainer {
+	.ant-tree-show-line {
+		li:not(:last-child):before{
+		  content: ' ';
+	    width: 1px;
+	    height: 100%;
+	    position: absolute;
+	    left: 13px;
+	    margin: 15px 0!important;
+		}
+		.ant-tree-switcher{
+			background: none!important;
+		}
+	}
+	.childNode .ant-tree-child-tree li{
+	padding-left: 20px;
+	.ant-tree-switcher{
+			display: none;
+		}
+	}
+}
+.posTreeContainer{
+	border: 1px solid #d7d7d7;
+	max-height: 300px;
+	padding: 20px;
+	overflow-x: auto;
+	.ant-tree li {
+		padding: 0;
+	}
+}
+.ant-form-item-label{
+		label{
+			font-weight: 400;
+			color: #f78;
+			display: inline-block;
+	    max-width: 100%;
+	    margin-bottom: 5px;
+		}
+	}
